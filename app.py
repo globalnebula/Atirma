@@ -28,7 +28,7 @@ def google_login():
 from pymongo import MongoClient
 import bcrypt
 
-client = MongoClient("mongodb://kunalachintya:kunal1908@atirma-shard-00-00.fqk36.mongodb.net:27017,atirma-shard-00-01.fqk36.mongodb.net:27017,atirma-shard-00-02.fqk36.mongodb.net:27017/?ssl=true&replicaSet=atirma-shard-0&authSource=admin&retryWrites=true&w=majority&tlsInsecure=true&ssl=true&tlsDisableOCSPEndpointCheck=true&appName=atirma")
+client = MongoClient("mongodb://kunalachintya:kunal1908@atirma-shard-00-00.fqk36.mongodb.net:27017,atirma-shard-00-01.fqk36.mongodb.net:27017,atirma-shard-00-02.fqk36.mongodb.net:27017/?ssl=true&replicaSet=atirma-shard-0&authSource=admin&retryWrites=true&w=majority&tlsInsecure=true&appName=atirma")
 
 db = client['atirma']
 users_collection = db['atirma']
