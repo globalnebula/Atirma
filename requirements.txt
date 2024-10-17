@@ -1,0 +1,9 @@
+streamlit
+firebase-admin
+pymongo
+bcrypt
+groq
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+requests
